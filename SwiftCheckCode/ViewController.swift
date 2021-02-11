@@ -18,7 +18,7 @@ class ViewController: UIViewController {
             
         changeText()
                     
-                    changeText1()
+        changeText1()
     }
 
             func changeText ()
