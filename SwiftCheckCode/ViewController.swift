@@ -15,7 +15,27 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         print("Hello World");
+            
+        changeText()
+                    
+                    changeText1()
     }
+
+            func changeText ()
+            {
+                 for i in 1...100 {
+                     //outputs Hello world for 100 times in the screen
+                     print("Hello, World! %d", i)
+                 }
+            }
+            
+            func changeText1 ()
+            {
+                 for i in 1...100 {
+                     //outputs Hello world for 100 times in the screen
+                     print("Hello, World! %d", i)
+                 }
+            }
 
 
 }
