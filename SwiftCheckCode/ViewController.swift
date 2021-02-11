@@ -23,6 +23,8 @@ class ViewController: UIViewController {
 
             func changeText ()
             {
+                print("Hello World");
+                
                  for i in 1...100 {
                      //outputs Hello world for 100 times in the screen
                      print("Hello, World! %d", i)
@@ -31,6 +33,8 @@ class ViewController: UIViewController {
             
             func changeText1 ()
             {
+                print("Hello World");
+                
                  for i in 1...100 {
                      //outputs Hello world for 100 times in the screen
                      print("Hello, World! %d", i)
